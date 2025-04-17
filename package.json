@@ -1,5 +1,5 @@
 {
-  "name": "@datr.tech/marmalade-api-model-interface-generator",
+  "name": "@datr.tech/marble-api-model-interface-generator",
   "version": "0.3.0",
   "private": false,
   "description": "Marmalade API model generator",
@@ -7,14 +7,14 @@
 		"api",
     "datr.tech",
 		"generator",
-    "marmalade",
+    "marble",
 		"model",
 		"typescript"
   ],
-  "homepage": "https://github.com/datr.tech/marmalade-api-model-interface-generator",
+  "homepage": "https://github.com/datr.tech/marble-api-model-interface-generator",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datr.tech/marmalade-api-model-interface-generator.git"
+    "url": "git+https://github.com/datr.tech/marble-api-model-interface-generator.git"
   },
   "license": "MIT",
   "author": "admin <admin@datr.tech>",
