@@ -1,0 +1,16 @@
+*.log
+*.err
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+dump.rdb
+npm-debug.log
+
+.idea/
+.DS_Store
+coverage
+dist
+node_modules
