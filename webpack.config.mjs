@@ -19,13 +19,12 @@ export default {
     extensions: ['.js', '.json', '.ts'],
     modules: ['node_modules'],
     alias: {
-      '@app': path.resolve(__dirname, 'src/'),
+      '@app-marble-api-model-interface-generator': path.resolve(__dirname, 'src/'),
     },
   },
+	target: "node",
   output: {
     filename: 'index.js',
-    globalObject: 'this',
-    path: path.resolve(__dirname, 'dist'),
-    libraryTarget: 'umd',
+    path: path.resolve(__dirname, 'dist')
   },
 };
