@@ -1,9 +1,7 @@
+CHANGELOG.md
 package-lock.json
-
 .git/
 .husky/
-.jest/
-
 coverage/
 dist/
 node_modules/

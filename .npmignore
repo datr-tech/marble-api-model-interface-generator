@@ -1,18 +1,16 @@
 .editorconfig
 .prettierignore
-.prettierrc
+.prettierrc.json
 
 CHANGELOG.md
-commitlint.config.js
+commitlint.config.mjs
 cspell.json
 eslint.config.mjs
-jest.config.ts
+jest.config.json
 tsconfig.json
-webpack.config.mjs
 
 .github/
 .husky/
-.jest/
 
 coverage/
 src/

@@ -1,0 +1,17 @@
+{
+  "moduleNameMapper": {
+    "@app-mamig/(.*)": "<rootDir>/src/$1"
+  },
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testPathIgnorePatterns": [
+    "<rootDir>/.git/",
+    "<rootDir>/.github/",
+    "<rootDir>/.husky/",
+    "<rootDir>/coverage/",
+    "<rootDir>/node_modules/"
+  ],
+  "transform": {
+    "^.+.tsx?$": ["ts-jest", {}]
+  }
+}

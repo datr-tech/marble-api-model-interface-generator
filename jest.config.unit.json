@@ -1,0 +1,27 @@
+{
+  "coveragePathIgnorePatterns": ["<rootDir>/test/fixtures"],
+  "coverageReporters": ["lcov", "json-summary", "text"],
+  "coverageThreshold": {
+    "global": {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100,
+      "statements": 100
+    }
+  },
+  "moduleNameMapper": {
+    "@app-mamig/(.*)": "<rootDir>/src/$1"
+  },
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testPathIgnorePatterns": [
+    "<rootDir>/.git/",
+    "<rootDir>/.github/",
+    "<rootDir>/.husky/",
+    "<rootDir>/coverage/",
+    "<rootDir>/node_modules/"
+  ],
+  "transform": {
+    "^.+.tsx?$": ["ts-jest", {}]
+  }
+}
